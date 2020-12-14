@@ -1,0 +1,109 @@
+body {
+  color: #fff;
+  background-color: magenta;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 2px solid white;
+}
+
+h1 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  font-size: 4rem;
+  transform: translate(50% 50%);
+}
+
+.between {
+  text-align: right;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.number {
+  background-color: #fff;
+  color: #ff00ff;
+  width: 5rem;
+  font-size: 4rem;
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.heart {
+  color: #ff00ff;
+}
+
+.again {
+  background-color: white;
+  color: magenta;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+}
+
+.main {
+  font-size: 1.5rem;
+  height: 65vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*--------------left---------------*/
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  align-items: center;
+}
+
+.left > input {
+  background-color: transparent;
+  text-align: center;
+  height: 5rem;
+  font-size: 4rem;
+  width: 15rem;
+  outline: none;
+  border: 2px solid #fff;
+  color: inherit;
+}
+
+.left > .check {
+  background-color: white;
+  color: magenta;
+  font-size: 1.8rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+}
+.right {
+  width: 15rem;
+  font-size: 2rem;
+
+  margin-bottom: 5rem;
+}
+
+.right h3 {
+  margin-bottom: 3rem;
+}
+
+.score,
+.highscore {
+  padding-left: 1rem;
+}
+
+button {
+  border-radius: 0.5rem;
+}
